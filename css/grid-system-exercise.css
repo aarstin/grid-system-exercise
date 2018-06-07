@@ -1,0 +1,14 @@
+:root {
+    --clr-grey: #E6E6E6;
+    --clr-white: #F0F0F0;
+    --clr-blue: #00ABA9;
+    --clr-green: #7CB06C;
+    --clr-orange: #EB9D3A;
+    --clr-red: #E6563B;
+}
+img {
+    background: transparent;
+}
+.container-fluid {
+    background-color: var(--clr-grey);
+}
