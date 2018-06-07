@@ -6,9 +6,12 @@
     --clr-orange: #EB9D3A;
     --clr-red: #E6563B;
 }
-img {
-    background: transparent;
+body {
+    padding: 20px;
+    background: var(--clr-grey);
 }
-.container-fluid {
-    background-color: var(--clr-grey);
+.white-bar {
+    background: var(--clr-white);
+    width: 100%;
+    height: 50px;
 }
