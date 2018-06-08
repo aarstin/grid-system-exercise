@@ -168,11 +168,11 @@ img {
         display: inline-block;
         border-radius: 50%;
         width: 100%;
-        height: 95px;
+        height: 97px;
     }
 
     #button-row {
-        margin: 0 80px 8px 80px;
+        margin: 0 58px 8px 58px;
     }
 
     .xs-hidden {
@@ -182,6 +182,12 @@ img {
     .spacer-row {
         margin: 0 auto;
         height: 45px;
+    }
+
+    .project {
+        display: block;
+        margin: 0;
+        width: 50%;
     }
 
 }
