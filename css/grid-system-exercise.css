@@ -6,16 +6,24 @@
     --clr-orange: #EB9D3A;
     --clr-red: #E6563B;
 }
+body {
+    font-family: 'Abel', sans-serif;
+}
 img {
-    z-index: 2;
+    position: relative;
+    z-index: 2000;
 }
 .white-bar {
     background: var(--clr-white);
     width: 100%;
+    top: 2em;
+    height: 3em;
     z-index: 1;
 }
 .container-fluid {
     padding: 20px;
-/*background: var(--clr-grey);*/
-background: #E6563B;
+background: var(--clr-grey);
+}
+.title-text {
+    font-size: 2em;
 }
