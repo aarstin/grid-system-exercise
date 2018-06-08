@@ -48,6 +48,7 @@ img {
 .spacer-row2 {
     height: 35px;
 }
+
 .circle {
     border: 5px solid white;
     text-align: center;
@@ -57,6 +58,7 @@ img {
     height: 129px;
 
 }
+
 .design {
     background: var(--clr-red);
 }
@@ -64,14 +66,22 @@ img {
 .develop {
     background: var(--clr-orange);
 }
+
 .support {
     background: var(--clr-green);
 }
+
 .host {
     background: var(--clr-blue);
 }
+
 .text {
     font-size: 25px;
     color: var(--clr-white);
     padding-top: calc(50% - 18px);
+}
+.border-radius {
+    border: 5px solid darkgrey;
+    border-radius: 5px;
+
 }
