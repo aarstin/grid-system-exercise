@@ -42,13 +42,22 @@ nav {
 }
 
 .circle-text {
-    padding-top: 26px;
+    padding-top: 30px;
     font-size: 26px;
     color: var(--clr-white);
 }
 
+.design {
+    background: var(--clr-red);
+}
 .develop {
-
+    background: var(--clr-orange);
+}
+.support {
+    background: var(--clr-green);
+}
+.host {
+    background: var(--clr-blue);
 }
 
 @media screen and (min-width: 576px) {
