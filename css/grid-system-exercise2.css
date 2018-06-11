@@ -1,0 +1,48 @@
+:root {
+    --clr-grey: #E6E6E6;
+    --clr-white: #F0F0F0;
+    --clr-blue: #00ABA9;
+    --clr-green: #7CB06C;
+    --clr-orange: #EB9D3A;
+    --clr-red: #E6563B;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+    background: var(--clr-grey);
+}
+
+.anton-text {
+    font-family: 'Anton', sans-serif;
+}
+
+nav {
+    font-size: smaller;
+}
+
+.container-fluid {
+
+}
+
+.white-bar {
+    background: var(--clr-white);
+    height: 70px;
+}
+
+.spacer-row {
+    height: 30px;
+}
+
+@media screen and (min-width: 576px) {
+    .sm-hidden {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
