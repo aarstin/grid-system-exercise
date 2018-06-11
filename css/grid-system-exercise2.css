@@ -33,6 +33,24 @@ nav {
     height: 30px;
 }
 
+.circle {
+    border: 5px solid var(--clr-white);
+    height: 111px;
+    width: 100%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle-text {
+    padding-top: 26px;
+    font-size: 26px;
+    color: var(--clr-white);
+}
+
+.develop {
+
+}
+
 @media screen and (min-width: 576px) {
     .sm-hidden {
         display: none;
