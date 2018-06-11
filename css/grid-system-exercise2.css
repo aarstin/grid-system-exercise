@@ -12,16 +12,12 @@ body {
     background: var(--clr-grey);
 }
 
-.anton-text {
-    font-family: 'Anton', sans-serif;
-}
-
 nav {
     font-size: smaller;
 }
 
-.container-fluid {
-
+.anton-text {
+    font-family: 'Anton', sans-serif;
 }
 
 .white-bar {
@@ -39,10 +35,10 @@ nav {
     width: 100%;
     border-radius: 50%;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 .circle-text {
-    padding-top: 30px;
     font-size: 26px;
     color: var(--clr-white);
 }
@@ -50,14 +46,25 @@ nav {
 .design {
     background: var(--clr-red);
 }
+
 .develop {
     background: var(--clr-orange);
 }
+
 .support {
     background: var(--clr-green);
 }
+
 .host {
     background: var(--clr-blue);
+}
+
+.img-border {
+    border: 5px solid darkgray;
+}
+
+.smaller-text {
+    font-size: 13px;
 }
 
 @media screen and (min-width: 576px) {
